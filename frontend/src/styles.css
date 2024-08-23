@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero-container {
+  background: url('C:\Users\jj\Documents\GitHub\plant_garden\frontend\pictures\plantpage.webp') center center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* Filter Section Styles */
+.filter-section {
+  padding: 20px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.filter-option {
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Plant List Styles */
+.plant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+/* Plant Card Styles */
+.plant-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plant-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.plant-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.plant-card p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.9em;
+}
